@@ -1,0 +1,157 @@
+{
+  "baseten.com": {
+    "story_count": 1,
+    "commenter_count": 0,
+    "commenters": [],
+    "stories": [
+      {
+        "story_id": "47136864",
+        "title": "Inference Engineering",
+        "url": "https://www.baseten.com/inference-engineering/",
+        "author": "simonpure",
+        "points": 2,
+        "created_at": "2026-02-24T13:26:35Z"
+      }
+    ]
+  },
+  "modal.com": {
+    "story_count": 13,
+    "commenter_count": 22,
+    "commenters": [
+      "BobbyTables2",
+      "Imustaskforhelp",
+      "ZsoltT",
+      "a_t48",
+      "aaronblohowiak",
+      "aidanhs",
+      "amitprasad",
+      "artisin",
+      "bfeynman",
+      "binsquare",
+      "erichocean",
+      "erwaen98",
+      "iLoveOncall",
+      "kgeist",
+      "luiscape",
+      "markasoftware",
+      "omneity",
+      "rippeltippel",
+      "sluongng",
+      "sunshowers",
+      "vivzkestrel",
+      "zackangelo"
+    ],
+    "stories": [
+      {
+        "story_id": "48264429",
+        "title": "Modal's Series C: Raising $355M at a $4.65B valuation",
+        "url": "https://modal.com/blog/modal-series-c",
+        "author": "yla92",
+        "points": 2,
+        "created_at": "2026-05-25T07:44:01Z"
+      },
+      {
+        "story_id": "48183038",
+        "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
+        "url": "https://modal.com/blog/truly-serverless-gpus",
+        "author": "charles_irl",
+        "points": 91,
+        "created_at": "2026-05-18T17:56:26Z"
+      },
+      {
+        "story_id": "48039150",
+        "title": "Boosting multimodal inference performance by >10% with a single Python dict",
+        "url": "https://modal.com/blog/boosting-multimodal-inference-performance-by-greater-than-10-with-a-single-python-dictionary",
+        "author": "jxmorris12",
+        "points": 16,
+        "created_at": "2026-05-06T17:45:00Z"
+      },
+      {
+        "story_id": "47164478",
+        "title": "Accelerating AI research that accelerates AI research",
+        "url": "https://modal.com/blog/accelerating-ai-research-case-study",
+        "author": "tosh",
+        "points": 3,
+        "created_at": "2026-02-26T11:08:16Z"
+      },
+      {
+        "story_id": "46925371",
+        "title": "Agents need good developer experience too",
+        "url": "https://modal.com/blog/agents-devex",
+        "author": "birdculture",
+        "points": 2,
+        "created_at": "2026-02-07T17:00:56Z"
+      },
+      {
+        "story_id": "46707708",
+        "title": "Three types of LLM workloads and how to serve them",
+        "url": "https://modal.com/llm-almanac/workloads",
+        "author": "charles_irl",
+        "points": 75,
+        "created_at": "2026-01-21T16:15:06Z"
+      },
+      {
+        "story_id": "46700049",
+        "title": "LLM architecture has evolved from GPT-2 to GPT-OSS (2025)",
+        "url": "https://modal.com/blog/gpt-oss-arch",
+        "author": "jxmorris12",
+        "points": 2,
+        "created_at": "2026-01-21T01:23:45Z"
+      },
+      {
+        "story_id": "46687564",
+        "title": "Keeping 20k GPUs Healthy",
+        "url": "https://modal.com/blog/gpu-health",
+        "author": "aburan28",
+        "points": 3,
+        "created_at": "2026-01-20T03:22:51Z"
+      },
+      {
+        "story_id": "46619197",
+        "title": "High-Performance LLM Inference",
+        "url": "https://modal.com/docs/guide/high-performance-llm-inference",
+        "author": "birdculture",
+        "points": 1,
+        "created_at": "2026-01-14T17:39:24Z"
+      },
+      {
+        "story_id": "46550345",
+        "title": "What Is Arithmetic Bandwidth?",
+        "url": "https://modal.com/gpu-glossary/perf/arithmetic-bandwidth",
+        "author": "jxmorris12",
+        "points": 2,
+        "created_at": "2026-01-09T05:23:59Z"
+      },
+      {
+        "story_id": "46543518",
+        "title": "GPU memory snapshots: sub-second startup (2025)",
+        "url": "https://modal.com/blog/gpu-mem-snapshots",
+        "author": "jxmorris12",
+        "points": 27,
+        "created_at": "2026-01-08T17:10:29Z"
+      },
+      {
+        "story_id": "46507730",
+        "title": "Sandboxed Claude Code GIF Creator",
+        "url": "https://modal.com/docs/examples/claude-slack-gif-creator",
+        "author": "birdculture",
+        "points": 1,
+        "created_at": "2026-01-06T01:40:57Z"
+      },
+      {
+        "story_id": "46339670",
+        "title": "Host overhead is killing your inference efficiency",
+        "url": "https://modal.com/blog/host-overhead-inference-efficiency",
+        "author": "birdculture",
+        "points": 3,
+        "created_at": "2025-12-20T21:10:42Z"
+      }
+    ]
+  },
+  "replicate.com": {
+    "story_count": 0,
+    "commenter_count": 0,
+    "commenters": [],
+    "stories": []
+  }
+}
