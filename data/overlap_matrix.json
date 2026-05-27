@@ -1,0 +1,1880 @@
+{
+  "nodes": [
+    {
+      "domain": "baseten.com",
+      "story_count": 1,
+      "commenter_count": 0
+    },
+    {
+      "domain": "modal.com",
+      "story_count": 28,
+      "commenter_count": 83
+    },
+    {
+      "domain": "replicate.com",
+      "story_count": 5,
+      "commenter_count": 49
+    },
+    {
+      "domain": "runpod.io",
+      "story_count": 2,
+      "commenter_count": 0
+    },
+    {
+      "domain": "together.ai",
+      "story_count": 13,
+      "commenter_count": 84
+    },
+    {
+      "domain": "anyscale.com",
+      "story_count": 11,
+      "commenter_count": 10
+    },
+    {
+      "domain": "huggingface.co",
+      "story_count": 630,
+      "commenter_count": 948
+    },
+    {
+      "domain": "fireworks.ai",
+      "story_count": 12,
+      "commenter_count": 1
+    },
+    {
+      "domain": "langchain.com",
+      "story_count": 29,
+      "commenter_count": 66
+    },
+    {
+      "domain": "llamaindex.ai",
+      "story_count": 5,
+      "commenter_count": 4
+    },
+    {
+      "domain": "wandb.ai",
+      "story_count": 3,
+      "commenter_count": 1
+    },
+    {
+      "domain": "pinecone.io",
+      "story_count": 7,
+      "commenter_count": 1
+    },
+    {
+      "domain": "weaviate.io",
+      "story_count": 7,
+      "commenter_count": 0
+    },
+    {
+      "domain": "trychroma.com",
+      "story_count": 11,
+      "commenter_count": 81
+    },
+    {
+      "domain": "mlflow.org",
+      "story_count": 0,
+      "commenter_count": 0
+    },
+    {
+      "domain": "bentoml.com",
+      "story_count": 13,
+      "commenter_count": 18
+    },
+    {
+      "domain": "ray.io",
+      "story_count": 0,
+      "commenter_count": 0
+    },
+    {
+      "domain": "openai.com",
+      "story_count": 487,
+      "commenter_count": 9482
+    },
+    {
+      "domain": "anthropic.com",
+      "story_count": 266,
+      "commenter_count": 9151
+    },
+    {
+      "domain": "mistral.ai",
+      "story_count": 39,
+      "commenter_count": 1369
+    },
+    {
+      "domain": "cohere.com",
+      "story_count": 2,
+      "commenter_count": 54
+    },
+    {
+      "domain": "meta.com",
+      "story_count": 46,
+      "commenter_count": 678
+    },
+    {
+      "domain": "aws.amazon.com",
+      "story_count": 188,
+      "commenter_count": 1491
+    },
+    {
+      "domain": "cloud.google.com",
+      "story_count": 126,
+      "commenter_count": 985
+    },
+    {
+      "domain": "vercel.com",
+      "story_count": 85,
+      "commenter_count": 176
+    },
+    {
+      "domain": "supabase.com",
+      "story_count": 26,
+      "commenter_count": 92
+    },
+    {
+      "domain": "nvidia.com",
+      "story_count": 178,
+      "commenter_count": 499
+    },
+    {
+      "domain": "databricks.com",
+      "story_count": 37,
+      "commenter_count": 184
+    },
+    {
+      "domain": "snowflake.com",
+      "story_count": 20,
+      "commenter_count": 8
+    },
+    {
+      "domain": "microsoft.com",
+      "story_count": 605,
+      "commenter_count": 2424
+    },
+    {
+      "domain": "cloudflare.com",
+      "story_count": 300,
+      "commenter_count": 4778
+    }
+  ],
+  "edges": [
+    {
+      "source": "openai.com",
+      "target": "anthropic.com",
+      "shared_commenters": 4190,
+      "jaccard": 0.2901,
+      "overlap_coefficient": 0.4579,
+      "source_size": 9482,
+      "target_size": 9151
+    },
+    {
+      "source": "openai.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 1965,
+      "jaccard": 0.1598,
+      "overlap_coefficient": 0.4113,
+      "source_size": 9482,
+      "target_size": 4778
+    },
+    {
+      "source": "anthropic.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 1916,
+      "jaccard": 0.1595,
+      "overlap_coefficient": 0.401,
+      "source_size": 9151,
+      "target_size": 4778
+    },
+    {
+      "source": "openai.com",
+      "target": "microsoft.com",
+      "shared_commenters": 1041,
+      "jaccard": 0.0958,
+      "overlap_coefficient": 0.4295,
+      "source_size": 9482,
+      "target_size": 2424
+    },
+    {
+      "source": "anthropic.com",
+      "target": "microsoft.com",
+      "shared_commenters": 978,
+      "jaccard": 0.0923,
+      "overlap_coefficient": 0.4035,
+      "source_size": 9151,
+      "target_size": 2424
+    },
+    {
+      "source": "openai.com",
+      "target": "mistral.ai",
+      "shared_commenters": 774,
+      "jaccard": 0.0768,
+      "overlap_coefficient": 0.5654,
+      "source_size": 9482,
+      "target_size": 1369
+    },
+    {
+      "source": "anthropic.com",
+      "target": "mistral.ai",
+      "shared_commenters": 742,
+      "jaccard": 0.0759,
+      "overlap_coefficient": 0.542,
+      "source_size": 9151,
+      "target_size": 1369
+    },
+    {
+      "source": "microsoft.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 719,
+      "jaccard": 0.1109,
+      "overlap_coefficient": 0.2966,
+      "source_size": 2424,
+      "target_size": 4778
+    },
+    {
+      "source": "openai.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 689,
+      "jaccard": 0.067,
+      "overlap_coefficient": 0.4621,
+      "source_size": 9482,
+      "target_size": 1491
+    },
+    {
+      "source": "anthropic.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 650,
+      "jaccard": 0.0651,
+      "overlap_coefficient": 0.4359,
+      "source_size": 9151,
+      "target_size": 1491
+    },
+    {
+      "source": "aws.amazon.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 517,
+      "jaccard": 0.0899,
+      "overlap_coefficient": 0.3467,
+      "source_size": 1491,
+      "target_size": 4778
+    },
+    {
+      "source": "huggingface.co",
+      "target": "openai.com",
+      "shared_commenters": 516,
+      "jaccard": 0.052,
+      "overlap_coefficient": 0.5443,
+      "source_size": 948,
+      "target_size": 9482
+    },
+    {
+      "source": "huggingface.co",
+      "target": "anthropic.com",
+      "shared_commenters": 480,
+      "jaccard": 0.0499,
+      "overlap_coefficient": 0.5063,
+      "source_size": 948,
+      "target_size": 9151
+    },
+    {
+      "source": "openai.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 443,
+      "jaccard": 0.0442,
+      "overlap_coefficient": 0.4497,
+      "source_size": 9482,
+      "target_size": 985
+    },
+    {
+      "source": "anthropic.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 424,
+      "jaccard": 0.0437,
+      "overlap_coefficient": 0.4305,
+      "source_size": 9151,
+      "target_size": 985
+    },
+    {
+      "source": "openai.com",
+      "target": "meta.com",
+      "shared_commenters": 422,
+      "jaccard": 0.0433,
+      "overlap_coefficient": 0.6224,
+      "source_size": 9482,
+      "target_size": 678
+    },
+    {
+      "source": "mistral.ai",
+      "target": "cloudflare.com",
+      "shared_commenters": 399,
+      "jaccard": 0.0694,
+      "overlap_coefficient": 0.2915,
+      "source_size": 1369,
+      "target_size": 4778
+    },
+    {
+      "source": "anthropic.com",
+      "target": "meta.com",
+      "shared_commenters": 398,
+      "jaccard": 0.0422,
+      "overlap_coefficient": 0.587,
+      "source_size": 9151,
+      "target_size": 678
+    },
+    {
+      "source": "cloud.google.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 337,
+      "jaccard": 0.0621,
+      "overlap_coefficient": 0.3421,
+      "source_size": 985,
+      "target_size": 4778
+    },
+    {
+      "source": "openai.com",
+      "target": "nvidia.com",
+      "shared_commenters": 279,
+      "jaccard": 0.0288,
+      "overlap_coefficient": 0.5591,
+      "source_size": 9482,
+      "target_size": 499
+    },
+    {
+      "source": "huggingface.co",
+      "target": "cloudflare.com",
+      "shared_commenters": 276,
+      "jaccard": 0.0506,
+      "overlap_coefficient": 0.2911,
+      "source_size": 948,
+      "target_size": 4778
+    },
+    {
+      "source": "anthropic.com",
+      "target": "nvidia.com",
+      "shared_commenters": 274,
+      "jaccard": 0.0292,
+      "overlap_coefficient": 0.5491,
+      "source_size": 9151,
+      "target_size": 499
+    },
+    {
+      "source": "aws.amazon.com",
+      "target": "microsoft.com",
+      "shared_commenters": 271,
+      "jaccard": 0.0744,
+      "overlap_coefficient": 0.1818,
+      "source_size": 1491,
+      "target_size": 2424
+    },
+    {
+      "source": "huggingface.co",
+      "target": "mistral.ai",
+      "shared_commenters": 204,
+      "jaccard": 0.0965,
+      "overlap_coefficient": 0.2152,
+      "source_size": 948,
+      "target_size": 1369
+    },
+    {
+      "source": "meta.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 201,
+      "jaccard": 0.0382,
+      "overlap_coefficient": 0.2965,
+      "source_size": 678,
+      "target_size": 4778
+    },
+    {
+      "source": "mistral.ai",
+      "target": "microsoft.com",
+      "shared_commenters": 191,
+      "jaccard": 0.053,
+      "overlap_coefficient": 0.1395,
+      "source_size": 1369,
+      "target_size": 2424
+    },
+    {
+      "source": "cloud.google.com",
+      "target": "microsoft.com",
+      "shared_commenters": 186,
+      "jaccard": 0.0577,
+      "overlap_coefficient": 0.1888,
+      "source_size": 985,
+      "target_size": 2424
+    },
+    {
+      "source": "nvidia.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 159,
+      "jaccard": 0.0311,
+      "overlap_coefficient": 0.3186,
+      "source_size": 499,
+      "target_size": 4778
+    },
+    {
+      "source": "mistral.ai",
+      "target": "aws.amazon.com",
+      "shared_commenters": 149,
+      "jaccard": 0.055,
+      "overlap_coefficient": 0.1088,
+      "source_size": 1369,
+      "target_size": 1491
+    },
+    {
+      "source": "aws.amazon.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 146,
+      "jaccard": 0.0627,
+      "overlap_coefficient": 0.1482,
+      "source_size": 1491,
+      "target_size": 985
+    },
+    {
+      "source": "huggingface.co",
+      "target": "microsoft.com",
+      "shared_commenters": 135,
+      "jaccard": 0.0417,
+      "overlap_coefficient": 0.1424,
+      "source_size": 948,
+      "target_size": 2424
+    },
+    {
+      "source": "mistral.ai",
+      "target": "meta.com",
+      "shared_commenters": 134,
+      "jaccard": 0.07,
+      "overlap_coefficient": 0.1976,
+      "source_size": 1369,
+      "target_size": 678
+    },
+    {
+      "source": "nvidia.com",
+      "target": "microsoft.com",
+      "shared_commenters": 123,
+      "jaccard": 0.0439,
+      "overlap_coefficient": 0.2465,
+      "source_size": 499,
+      "target_size": 2424
+    },
+    {
+      "source": "meta.com",
+      "target": "microsoft.com",
+      "shared_commenters": 122,
+      "jaccard": 0.0409,
+      "overlap_coefficient": 0.1799,
+      "source_size": 678,
+      "target_size": 2424
+    },
+    {
+      "source": "anthropic.com",
+      "target": "vercel.com",
+      "shared_commenters": 115,
+      "jaccard": 0.0125,
+      "overlap_coefficient": 0.6534,
+      "source_size": 9151,
+      "target_size": 176
+    },
+    {
+      "source": "openai.com",
+      "target": "vercel.com",
+      "shared_commenters": 105,
+      "jaccard": 0.011,
+      "overlap_coefficient": 0.5966,
+      "source_size": 9482,
+      "target_size": 176
+    },
+    {
+      "source": "mistral.ai",
+      "target": "cloud.google.com",
+      "shared_commenters": 104,
+      "jaccard": 0.0462,
+      "overlap_coefficient": 0.1056,
+      "source_size": 1369,
+      "target_size": 985
+    },
+    {
+      "source": "huggingface.co",
+      "target": "meta.com",
+      "shared_commenters": 93,
+      "jaccard": 0.0607,
+      "overlap_coefficient": 0.1372,
+      "source_size": 948,
+      "target_size": 678
+    },
+    {
+      "source": "huggingface.co",
+      "target": "aws.amazon.com",
+      "shared_commenters": 90,
+      "jaccard": 0.0383,
+      "overlap_coefficient": 0.0949,
+      "source_size": 948,
+      "target_size": 1491
+    },
+    {
+      "source": "openai.com",
+      "target": "databricks.com",
+      "shared_commenters": 82,
+      "jaccard": 0.0086,
+      "overlap_coefficient": 0.4457,
+      "source_size": 9482,
+      "target_size": 184
+    },
+    {
+      "source": "mistral.ai",
+      "target": "nvidia.com",
+      "shared_commenters": 81,
+      "jaccard": 0.0453,
+      "overlap_coefficient": 0.1623,
+      "source_size": 1369,
+      "target_size": 499
+    },
+    {
+      "source": "huggingface.co",
+      "target": "cloud.google.com",
+      "shared_commenters": 80,
+      "jaccard": 0.0432,
+      "overlap_coefficient": 0.0844,
+      "source_size": 948,
+      "target_size": 985
+    },
+    {
+      "source": "huggingface.co",
+      "target": "nvidia.com",
+      "shared_commenters": 77,
+      "jaccard": 0.0562,
+      "overlap_coefficient": 0.1543,
+      "source_size": 948,
+      "target_size": 499
+    },
+    {
+      "source": "anthropic.com",
+      "target": "databricks.com",
+      "shared_commenters": 77,
+      "jaccard": 0.0083,
+      "overlap_coefficient": 0.4185,
+      "source_size": 9151,
+      "target_size": 184
+    },
+    {
+      "source": "aws.amazon.com",
+      "target": "nvidia.com",
+      "shared_commenters": 71,
+      "jaccard": 0.037,
+      "overlap_coefficient": 0.1423,
+      "source_size": 1491,
+      "target_size": 499
+    },
+    {
+      "source": "meta.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 67,
+      "jaccard": 0.0319,
+      "overlap_coefficient": 0.0988,
+      "source_size": 678,
+      "target_size": 1491
+    },
+    {
+      "source": "vercel.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 66,
+      "jaccard": 0.0135,
+      "overlap_coefficient": 0.375,
+      "source_size": 176,
+      "target_size": 4778
+    },
+    {
+      "source": "together.ai",
+      "target": "openai.com",
+      "shared_commenters": 62,
+      "jaccard": 0.0065,
+      "overlap_coefficient": 0.7381,
+      "source_size": 84,
+      "target_size": 9482
+    },
+    {
+      "source": "together.ai",
+      "target": "anthropic.com",
+      "shared_commenters": 62,
+      "jaccard": 0.0068,
+      "overlap_coefficient": 0.7381,
+      "source_size": 84,
+      "target_size": 9151
+    },
+    {
+      "source": "meta.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 61,
+      "jaccard": 0.0381,
+      "overlap_coefficient": 0.09,
+      "source_size": 678,
+      "target_size": 985
+    },
+    {
+      "source": "databricks.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 54,
+      "jaccard": 0.011,
+      "overlap_coefficient": 0.2935,
+      "source_size": 184,
+      "target_size": 4778
+    },
+    {
+      "source": "modal.com",
+      "target": "openai.com",
+      "shared_commenters": 50,
+      "jaccard": 0.0053,
+      "overlap_coefficient": 0.6024,
+      "source_size": 83,
+      "target_size": 9482
+    },
+    {
+      "source": "openai.com",
+      "target": "supabase.com",
+      "shared_commenters": 44,
+      "jaccard": 0.0046,
+      "overlap_coefficient": 0.4783,
+      "source_size": 9482,
+      "target_size": 92
+    },
+    {
+      "source": "trychroma.com",
+      "target": "anthropic.com",
+      "shared_commenters": 43,
+      "jaccard": 0.0047,
+      "overlap_coefficient": 0.5309,
+      "source_size": 81,
+      "target_size": 9151
+    },
+    {
+      "source": "meta.com",
+      "target": "nvidia.com",
+      "shared_commenters": 43,
+      "jaccard": 0.0379,
+      "overlap_coefficient": 0.0862,
+      "source_size": 678,
+      "target_size": 499
+    },
+    {
+      "source": "modal.com",
+      "target": "anthropic.com",
+      "shared_commenters": 41,
+      "jaccard": 0.0045,
+      "overlap_coefficient": 0.494,
+      "source_size": 83,
+      "target_size": 9151
+    },
+    {
+      "source": "anthropic.com",
+      "target": "supabase.com",
+      "shared_commenters": 39,
+      "jaccard": 0.0042,
+      "overlap_coefficient": 0.4239,
+      "source_size": 9151,
+      "target_size": 92
+    },
+    {
+      "source": "supabase.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 39,
+      "jaccard": 0.0081,
+      "overlap_coefficient": 0.4239,
+      "source_size": 92,
+      "target_size": 4778
+    },
+    {
+      "source": "trychroma.com",
+      "target": "openai.com",
+      "shared_commenters": 38,
+      "jaccard": 0.004,
+      "overlap_coefficient": 0.4691,
+      "source_size": 81,
+      "target_size": 9482
+    },
+    {
+      "source": "mistral.ai",
+      "target": "vercel.com",
+      "shared_commenters": 38,
+      "jaccard": 0.0252,
+      "overlap_coefficient": 0.2159,
+      "source_size": 1369,
+      "target_size": 176
+    },
+    {
+      "source": "cloud.google.com",
+      "target": "nvidia.com",
+      "shared_commenters": 38,
+      "jaccard": 0.0263,
+      "overlap_coefficient": 0.0762,
+      "source_size": 985,
+      "target_size": 499
+    },
+    {
+      "source": "together.ai",
+      "target": "cloudflare.com",
+      "shared_commenters": 36,
+      "jaccard": 0.0075,
+      "overlap_coefficient": 0.4286,
+      "source_size": 84,
+      "target_size": 4778
+    },
+    {
+      "source": "langchain.com",
+      "target": "anthropic.com",
+      "shared_commenters": 34,
+      "jaccard": 0.0037,
+      "overlap_coefficient": 0.5152,
+      "source_size": 66,
+      "target_size": 9151
+    },
+    {
+      "source": "anthropic.com",
+      "target": "cohere.com",
+      "shared_commenters": 33,
+      "jaccard": 0.0036,
+      "overlap_coefficient": 0.6111,
+      "source_size": 9151,
+      "target_size": 54
+    },
+    {
+      "source": "vercel.com",
+      "target": "microsoft.com",
+      "shared_commenters": 32,
+      "jaccard": 0.0125,
+      "overlap_coefficient": 0.1818,
+      "source_size": 176,
+      "target_size": 2424
+    },
+    {
+      "source": "modal.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 31,
+      "jaccard": 0.0064,
+      "overlap_coefficient": 0.3735,
+      "source_size": 83,
+      "target_size": 4778
+    },
+    {
+      "source": "replicate.com",
+      "target": "anthropic.com",
+      "shared_commenters": 31,
+      "jaccard": 0.0034,
+      "overlap_coefficient": 0.6327,
+      "source_size": 49,
+      "target_size": 9151
+    },
+    {
+      "source": "openai.com",
+      "target": "cohere.com",
+      "shared_commenters": 31,
+      "jaccard": 0.0033,
+      "overlap_coefficient": 0.5741,
+      "source_size": 9482,
+      "target_size": 54
+    },
+    {
+      "source": "aws.amazon.com",
+      "target": "databricks.com",
+      "shared_commenters": 30,
+      "jaccard": 0.0182,
+      "overlap_coefficient": 0.163,
+      "source_size": 1491,
+      "target_size": 184
+    },
+    {
+      "source": "huggingface.co",
+      "target": "vercel.com",
+      "shared_commenters": 29,
+      "jaccard": 0.0265,
+      "overlap_coefficient": 0.1648,
+      "source_size": 948,
+      "target_size": 176
+    },
+    {
+      "source": "replicate.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 28,
+      "jaccard": 0.0058,
+      "overlap_coefficient": 0.5714,
+      "source_size": 49,
+      "target_size": 4778
+    },
+    {
+      "source": "langchain.com",
+      "target": "openai.com",
+      "shared_commenters": 28,
+      "jaccard": 0.0029,
+      "overlap_coefficient": 0.4242,
+      "source_size": 66,
+      "target_size": 9482
+    },
+    {
+      "source": "replicate.com",
+      "target": "openai.com",
+      "shared_commenters": 27,
+      "jaccard": 0.0028,
+      "overlap_coefficient": 0.551,
+      "source_size": 49,
+      "target_size": 9482
+    },
+    {
+      "source": "modal.com",
+      "target": "microsoft.com",
+      "shared_commenters": 25,
+      "jaccard": 0.0101,
+      "overlap_coefficient": 0.3012,
+      "source_size": 83,
+      "target_size": 2424
+    },
+    {
+      "source": "together.ai",
+      "target": "mistral.ai",
+      "shared_commenters": 25,
+      "jaccard": 0.0175,
+      "overlap_coefficient": 0.2976,
+      "source_size": 84,
+      "target_size": 1369
+    },
+    {
+      "source": "together.ai",
+      "target": "microsoft.com",
+      "shared_commenters": 25,
+      "jaccard": 0.0101,
+      "overlap_coefficient": 0.2976,
+      "source_size": 84,
+      "target_size": 2424
+    },
+    {
+      "source": "trychroma.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 25,
+      "jaccard": 0.0052,
+      "overlap_coefficient": 0.3086,
+      "source_size": 81,
+      "target_size": 4778
+    },
+    {
+      "source": "together.ai",
+      "target": "huggingface.co",
+      "shared_commenters": 23,
+      "jaccard": 0.0228,
+      "overlap_coefficient": 0.2738,
+      "source_size": 84,
+      "target_size": 948
+    },
+    {
+      "source": "databricks.com",
+      "target": "microsoft.com",
+      "shared_commenters": 23,
+      "jaccard": 0.0089,
+      "overlap_coefficient": 0.125,
+      "source_size": 184,
+      "target_size": 2424
+    },
+    {
+      "source": "aws.amazon.com",
+      "target": "vercel.com",
+      "shared_commenters": 21,
+      "jaccard": 0.0128,
+      "overlap_coefficient": 0.1193,
+      "source_size": 1491,
+      "target_size": 176
+    },
+    {
+      "source": "langchain.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 20,
+      "jaccard": 0.0041,
+      "overlap_coefficient": 0.303,
+      "source_size": 66,
+      "target_size": 4778
+    },
+    {
+      "source": "cohere.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 20,
+      "jaccard": 0.0042,
+      "overlap_coefficient": 0.3704,
+      "source_size": 54,
+      "target_size": 4778
+    },
+    {
+      "source": "meta.com",
+      "target": "vercel.com",
+      "shared_commenters": 20,
+      "jaccard": 0.024,
+      "overlap_coefficient": 0.1136,
+      "source_size": 678,
+      "target_size": 176
+    },
+    {
+      "source": "mistral.ai",
+      "target": "databricks.com",
+      "shared_commenters": 19,
+      "jaccard": 0.0124,
+      "overlap_coefficient": 0.1033,
+      "source_size": 1369,
+      "target_size": 184
+    },
+    {
+      "source": "cloud.google.com",
+      "target": "databricks.com",
+      "shared_commenters": 18,
+      "jaccard": 0.0156,
+      "overlap_coefficient": 0.0978,
+      "source_size": 985,
+      "target_size": 184
+    },
+    {
+      "source": "langchain.com",
+      "target": "mistral.ai",
+      "shared_commenters": 17,
+      "jaccard": 0.012,
+      "overlap_coefficient": 0.2576,
+      "source_size": 66,
+      "target_size": 1369
+    },
+    {
+      "source": "supabase.com",
+      "target": "microsoft.com",
+      "shared_commenters": 17,
+      "jaccard": 0.0068,
+      "overlap_coefficient": 0.1848,
+      "source_size": 92,
+      "target_size": 2424
+    },
+    {
+      "source": "replicate.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 16,
+      "jaccard": 0.0105,
+      "overlap_coefficient": 0.3265,
+      "source_size": 49,
+      "target_size": 1491
+    },
+    {
+      "source": "mistral.ai",
+      "target": "cohere.com",
+      "shared_commenters": 16,
+      "jaccard": 0.0114,
+      "overlap_coefficient": 0.2963,
+      "source_size": 1369,
+      "target_size": 54
+    },
+    {
+      "source": "modal.com",
+      "target": "mistral.ai",
+      "shared_commenters": 15,
+      "jaccard": 0.0104,
+      "overlap_coefficient": 0.1807,
+      "source_size": 83,
+      "target_size": 1369
+    },
+    {
+      "source": "together.ai",
+      "target": "meta.com",
+      "shared_commenters": 15,
+      "jaccard": 0.0201,
+      "overlap_coefficient": 0.1786,
+      "source_size": 84,
+      "target_size": 678
+    },
+    {
+      "source": "modal.com",
+      "target": "huggingface.co",
+      "shared_commenters": 14,
+      "jaccard": 0.0138,
+      "overlap_coefficient": 0.1687,
+      "source_size": 83,
+      "target_size": 948
+    },
+    {
+      "source": "modal.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 14,
+      "jaccard": 0.009,
+      "overlap_coefficient": 0.1687,
+      "source_size": 83,
+      "target_size": 1491
+    },
+    {
+      "source": "huggingface.co",
+      "target": "langchain.com",
+      "shared_commenters": 14,
+      "jaccard": 0.014,
+      "overlap_coefficient": 0.2121,
+      "source_size": 948,
+      "target_size": 66
+    },
+    {
+      "source": "cloud.google.com",
+      "target": "vercel.com",
+      "shared_commenters": 14,
+      "jaccard": 0.0122,
+      "overlap_coefficient": 0.0795,
+      "source_size": 985,
+      "target_size": 176
+    },
+    {
+      "source": "huggingface.co",
+      "target": "trychroma.com",
+      "shared_commenters": 13,
+      "jaccard": 0.0128,
+      "overlap_coefficient": 0.1605,
+      "source_size": 948,
+      "target_size": 81
+    },
+    {
+      "source": "aws.amazon.com",
+      "target": "supabase.com",
+      "shared_commenters": 13,
+      "jaccard": 0.0083,
+      "overlap_coefficient": 0.1413,
+      "source_size": 1491,
+      "target_size": 92
+    },
+    {
+      "source": "cloud.google.com",
+      "target": "supabase.com",
+      "shared_commenters": 13,
+      "jaccard": 0.0122,
+      "overlap_coefficient": 0.1413,
+      "source_size": 985,
+      "target_size": 92
+    },
+    {
+      "source": "together.ai",
+      "target": "aws.amazon.com",
+      "shared_commenters": 12,
+      "jaccard": 0.0077,
+      "overlap_coefficient": 0.1429,
+      "source_size": 84,
+      "target_size": 1491
+    },
+    {
+      "source": "meta.com",
+      "target": "supabase.com",
+      "shared_commenters": 12,
+      "jaccard": 0.0158,
+      "overlap_coefficient": 0.1304,
+      "source_size": 678,
+      "target_size": 92
+    },
+    {
+      "source": "meta.com",
+      "target": "databricks.com",
+      "shared_commenters": 12,
+      "jaccard": 0.0141,
+      "overlap_coefficient": 0.0652,
+      "source_size": 678,
+      "target_size": 184
+    },
+    {
+      "source": "vercel.com",
+      "target": "nvidia.com",
+      "shared_commenters": 12,
+      "jaccard": 0.0181,
+      "overlap_coefficient": 0.0682,
+      "source_size": 176,
+      "target_size": 499
+    },
+    {
+      "source": "nvidia.com",
+      "target": "databricks.com",
+      "shared_commenters": 12,
+      "jaccard": 0.0179,
+      "overlap_coefficient": 0.0652,
+      "source_size": 499,
+      "target_size": 184
+    },
+    {
+      "source": "together.ai",
+      "target": "cloud.google.com",
+      "shared_commenters": 11,
+      "jaccard": 0.0104,
+      "overlap_coefficient": 0.131,
+      "source_size": 84,
+      "target_size": 985
+    },
+    {
+      "source": "trychroma.com",
+      "target": "mistral.ai",
+      "shared_commenters": 11,
+      "jaccard": 0.0076,
+      "overlap_coefficient": 0.1358,
+      "source_size": 81,
+      "target_size": 1369
+    },
+    {
+      "source": "modal.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 10,
+      "jaccard": 0.0095,
+      "overlap_coefficient": 0.1205,
+      "source_size": 83,
+      "target_size": 985
+    },
+    {
+      "source": "together.ai",
+      "target": "nvidia.com",
+      "shared_commenters": 10,
+      "jaccard": 0.0175,
+      "overlap_coefficient": 0.119,
+      "source_size": 84,
+      "target_size": 499
+    },
+    {
+      "source": "cohere.com",
+      "target": "meta.com",
+      "shared_commenters": 10,
+      "jaccard": 0.0139,
+      "overlap_coefficient": 0.1852,
+      "source_size": 54,
+      "target_size": 678
+    },
+    {
+      "source": "replicate.com",
+      "target": "meta.com",
+      "shared_commenters": 9,
+      "jaccard": 0.0125,
+      "overlap_coefficient": 0.1837,
+      "source_size": 49,
+      "target_size": 678
+    },
+    {
+      "source": "huggingface.co",
+      "target": "cohere.com",
+      "shared_commenters": 9,
+      "jaccard": 0.0091,
+      "overlap_coefficient": 0.1667,
+      "source_size": 948,
+      "target_size": 54
+    },
+    {
+      "source": "huggingface.co",
+      "target": "databricks.com",
+      "shared_commenters": 9,
+      "jaccard": 0.008,
+      "overlap_coefficient": 0.0489,
+      "source_size": 948,
+      "target_size": 184
+    },
+    {
+      "source": "bentoml.com",
+      "target": "anthropic.com",
+      "shared_commenters": 9,
+      "jaccard": 0.001,
+      "overlap_coefficient": 0.5,
+      "source_size": 18,
+      "target_size": 9151
+    },
+    {
+      "source": "modal.com",
+      "target": "nvidia.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0139,
+      "overlap_coefficient": 0.0964,
+      "source_size": 83,
+      "target_size": 499
+    },
+    {
+      "source": "replicate.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0078,
+      "overlap_coefficient": 0.1633,
+      "source_size": 49,
+      "target_size": 985
+    },
+    {
+      "source": "replicate.com",
+      "target": "microsoft.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0032,
+      "overlap_coefficient": 0.1633,
+      "source_size": 49,
+      "target_size": 2424
+    },
+    {
+      "source": "huggingface.co",
+      "target": "supabase.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0078,
+      "overlap_coefficient": 0.087,
+      "source_size": 948,
+      "target_size": 92
+    },
+    {
+      "source": "langchain.com",
+      "target": "meta.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0109,
+      "overlap_coefficient": 0.1212,
+      "source_size": 66,
+      "target_size": 678
+    },
+    {
+      "source": "langchain.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0077,
+      "overlap_coefficient": 0.1212,
+      "source_size": 66,
+      "target_size": 985
+    },
+    {
+      "source": "mistral.ai",
+      "target": "supabase.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0055,
+      "overlap_coefficient": 0.087,
+      "source_size": 1369,
+      "target_size": 92
+    },
+    {
+      "source": "cohere.com",
+      "target": "microsoft.com",
+      "shared_commenters": 8,
+      "jaccard": 0.0032,
+      "overlap_coefficient": 0.1481,
+      "source_size": 54,
+      "target_size": 2424
+    },
+    {
+      "source": "modal.com",
+      "target": "meta.com",
+      "shared_commenters": 7,
+      "jaccard": 0.0093,
+      "overlap_coefficient": 0.0843,
+      "source_size": 83,
+      "target_size": 678
+    },
+    {
+      "source": "replicate.com",
+      "target": "mistral.ai",
+      "shared_commenters": 7,
+      "jaccard": 0.005,
+      "overlap_coefficient": 0.1429,
+      "source_size": 49,
+      "target_size": 1369
+    },
+    {
+      "source": "replicate.com",
+      "target": "databricks.com",
+      "shared_commenters": 7,
+      "jaccard": 0.031,
+      "overlap_coefficient": 0.1429,
+      "source_size": 49,
+      "target_size": 184
+    },
+    {
+      "source": "langchain.com",
+      "target": "nvidia.com",
+      "shared_commenters": 7,
+      "jaccard": 0.0125,
+      "overlap_coefficient": 0.1061,
+      "source_size": 66,
+      "target_size": 499
+    },
+    {
+      "source": "langchain.com",
+      "target": "microsoft.com",
+      "shared_commenters": 7,
+      "jaccard": 0.0028,
+      "overlap_coefficient": 0.1061,
+      "source_size": 66,
+      "target_size": 2424
+    },
+    {
+      "source": "trychroma.com",
+      "target": "nvidia.com",
+      "shared_commenters": 7,
+      "jaccard": 0.0122,
+      "overlap_coefficient": 0.0864,
+      "source_size": 81,
+      "target_size": 499
+    },
+    {
+      "source": "langchain.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 6,
+      "jaccard": 0.0039,
+      "overlap_coefficient": 0.0909,
+      "source_size": 66,
+      "target_size": 1491
+    },
+    {
+      "source": "bentoml.com",
+      "target": "openai.com",
+      "shared_commenters": 6,
+      "jaccard": 0.0006,
+      "overlap_coefficient": 0.3333,
+      "source_size": 18,
+      "target_size": 9482
+    },
+    {
+      "source": "cohere.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 6,
+      "jaccard": 0.0058,
+      "overlap_coefficient": 0.1111,
+      "source_size": 54,
+      "target_size": 985
+    },
+    {
+      "source": "cohere.com",
+      "target": "nvidia.com",
+      "shared_commenters": 6,
+      "jaccard": 0.011,
+      "overlap_coefficient": 0.1111,
+      "source_size": 54,
+      "target_size": 499
+    },
+    {
+      "source": "supabase.com",
+      "target": "nvidia.com",
+      "shared_commenters": 6,
+      "jaccard": 0.0103,
+      "overlap_coefficient": 0.0652,
+      "source_size": 92,
+      "target_size": 499
+    },
+    {
+      "source": "replicate.com",
+      "target": "huggingface.co",
+      "shared_commenters": 5,
+      "jaccard": 0.005,
+      "overlap_coefficient": 0.102,
+      "source_size": 49,
+      "target_size": 948
+    },
+    {
+      "source": "replicate.com",
+      "target": "nvidia.com",
+      "shared_commenters": 5,
+      "jaccard": 0.0092,
+      "overlap_coefficient": 0.102,
+      "source_size": 49,
+      "target_size": 499
+    },
+    {
+      "source": "anyscale.com",
+      "target": "anthropic.com",
+      "shared_commenters": 5,
+      "jaccard": 0.0005,
+      "overlap_coefficient": 0.5,
+      "source_size": 10,
+      "target_size": 9151
+    },
+    {
+      "source": "trychroma.com",
+      "target": "meta.com",
+      "shared_commenters": 5,
+      "jaccard": 0.0066,
+      "overlap_coefficient": 0.0617,
+      "source_size": 81,
+      "target_size": 678
+    },
+    {
+      "source": "trychroma.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 5,
+      "jaccard": 0.0032,
+      "overlap_coefficient": 0.0617,
+      "source_size": 81,
+      "target_size": 1491
+    },
+    {
+      "source": "bentoml.com",
+      "target": "mistral.ai",
+      "shared_commenters": 5,
+      "jaccard": 0.0036,
+      "overlap_coefficient": 0.2778,
+      "source_size": 18,
+      "target_size": 1369
+    },
+    {
+      "source": "cohere.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 5,
+      "jaccard": 0.0032,
+      "overlap_coefficient": 0.0926,
+      "source_size": 54,
+      "target_size": 1491
+    },
+    {
+      "source": "modal.com",
+      "target": "vercel.com",
+      "shared_commenters": 4,
+      "jaccard": 0.0157,
+      "overlap_coefficient": 0.0482,
+      "source_size": 83,
+      "target_size": 176
+    },
+    {
+      "source": "together.ai",
+      "target": "cohere.com",
+      "shared_commenters": 4,
+      "jaccard": 0.0299,
+      "overlap_coefficient": 0.0741,
+      "source_size": 84,
+      "target_size": 54
+    },
+    {
+      "source": "anyscale.com",
+      "target": "openai.com",
+      "shared_commenters": 4,
+      "jaccard": 0.0004,
+      "overlap_coefficient": 0.4,
+      "source_size": 10,
+      "target_size": 9482
+    },
+    {
+      "source": "trychroma.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 4,
+      "jaccard": 0.0038,
+      "overlap_coefficient": 0.0494,
+      "source_size": 81,
+      "target_size": 985
+    },
+    {
+      "source": "trychroma.com",
+      "target": "microsoft.com",
+      "shared_commenters": 4,
+      "jaccard": 0.0016,
+      "overlap_coefficient": 0.0494,
+      "source_size": 81,
+      "target_size": 2424
+    },
+    {
+      "source": "bentoml.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 4,
+      "jaccard": 0.0008,
+      "overlap_coefficient": 0.2222,
+      "source_size": 18,
+      "target_size": 4778
+    },
+    {
+      "source": "replicate.com",
+      "target": "supabase.com",
+      "shared_commenters": 3,
+      "jaccard": 0.0217,
+      "overlap_coefficient": 0.0612,
+      "source_size": 49,
+      "target_size": 92
+    },
+    {
+      "source": "trychroma.com",
+      "target": "databricks.com",
+      "shared_commenters": 3,
+      "jaccard": 0.0115,
+      "overlap_coefficient": 0.037,
+      "source_size": 81,
+      "target_size": 184
+    },
+    {
+      "source": "vercel.com",
+      "target": "databricks.com",
+      "shared_commenters": 3,
+      "jaccard": 0.0084,
+      "overlap_coefficient": 0.017,
+      "source_size": 176,
+      "target_size": 184
+    },
+    {
+      "source": "supabase.com",
+      "target": "databricks.com",
+      "shared_commenters": 3,
+      "jaccard": 0.011,
+      "overlap_coefficient": 0.0326,
+      "source_size": 92,
+      "target_size": 184
+    },
+    {
+      "source": "modal.com",
+      "target": "replicate.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0154,
+      "overlap_coefficient": 0.0408,
+      "source_size": 83,
+      "target_size": 49
+    },
+    {
+      "source": "modal.com",
+      "target": "together.ai",
+      "shared_commenters": 2,
+      "jaccard": 0.0121,
+      "overlap_coefficient": 0.0241,
+      "source_size": 83,
+      "target_size": 84
+    },
+    {
+      "source": "modal.com",
+      "target": "trychroma.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0123,
+      "overlap_coefficient": 0.0247,
+      "source_size": 83,
+      "target_size": 81
+    },
+    {
+      "source": "replicate.com",
+      "target": "cohere.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0198,
+      "overlap_coefficient": 0.0408,
+      "source_size": 49,
+      "target_size": 54
+    },
+    {
+      "source": "together.ai",
+      "target": "langchain.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0135,
+      "overlap_coefficient": 0.0303,
+      "source_size": 84,
+      "target_size": 66
+    },
+    {
+      "source": "together.ai",
+      "target": "trychroma.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0123,
+      "overlap_coefficient": 0.0247,
+      "source_size": 84,
+      "target_size": 81
+    },
+    {
+      "source": "together.ai",
+      "target": "databricks.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0075,
+      "overlap_coefficient": 0.0238,
+      "source_size": 84,
+      "target_size": 184
+    },
+    {
+      "source": "anyscale.com",
+      "target": "cloudflare.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0004,
+      "overlap_coefficient": 0.2,
+      "source_size": 10,
+      "target_size": 4778
+    },
+    {
+      "source": "huggingface.co",
+      "target": "snowflake.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0021,
+      "overlap_coefficient": 0.25,
+      "source_size": 948,
+      "target_size": 8
+    },
+    {
+      "source": "langchain.com",
+      "target": "vercel.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0083,
+      "overlap_coefficient": 0.0303,
+      "source_size": 66,
+      "target_size": 176
+    },
+    {
+      "source": "langchain.com",
+      "target": "supabase.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0128,
+      "overlap_coefficient": 0.0303,
+      "source_size": 66,
+      "target_size": 92
+    },
+    {
+      "source": "langchain.com",
+      "target": "databricks.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0081,
+      "overlap_coefficient": 0.0303,
+      "source_size": 66,
+      "target_size": 184
+    },
+    {
+      "source": "llamaindex.ai",
+      "target": "openai.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0002,
+      "overlap_coefficient": 0.5,
+      "source_size": 4,
+      "target_size": 9482
+    },
+    {
+      "source": "llamaindex.ai",
+      "target": "anthropic.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0002,
+      "overlap_coefficient": 0.5,
+      "source_size": 4,
+      "target_size": 9151
+    },
+    {
+      "source": "trychroma.com",
+      "target": "cohere.com",
+      "shared_commenters": 2,
+      "jaccard": 0.015,
+      "overlap_coefficient": 0.037,
+      "source_size": 81,
+      "target_size": 54
+    },
+    {
+      "source": "cohere.com",
+      "target": "vercel.com",
+      "shared_commenters": 2,
+      "jaccard": 0.0088,
+      "overlap_coefficient": 0.037,
+      "source_size": 54,
+      "target_size": 176
+    },
+    {
+      "source": "modal.com",
+      "target": "langchain.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0068,
+      "overlap_coefficient": 0.0152,
+      "source_size": 83,
+      "target_size": 66
+    },
+    {
+      "source": "modal.com",
+      "target": "cohere.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0074,
+      "overlap_coefficient": 0.0185,
+      "source_size": 83,
+      "target_size": 54
+    },
+    {
+      "source": "modal.com",
+      "target": "supabase.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0057,
+      "overlap_coefficient": 0.012,
+      "source_size": 83,
+      "target_size": 92
+    },
+    {
+      "source": "modal.com",
+      "target": "databricks.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0038,
+      "overlap_coefficient": 0.012,
+      "source_size": 83,
+      "target_size": 184
+    },
+    {
+      "source": "replicate.com",
+      "target": "together.ai",
+      "shared_commenters": 1,
+      "jaccard": 0.0076,
+      "overlap_coefficient": 0.0204,
+      "source_size": 49,
+      "target_size": 84
+    },
+    {
+      "source": "replicate.com",
+      "target": "langchain.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0088,
+      "overlap_coefficient": 0.0204,
+      "source_size": 49,
+      "target_size": 66
+    },
+    {
+      "source": "replicate.com",
+      "target": "trychroma.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0078,
+      "overlap_coefficient": 0.0204,
+      "source_size": 49,
+      "target_size": 81
+    },
+    {
+      "source": "together.ai",
+      "target": "bentoml.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0099,
+      "overlap_coefficient": 0.0556,
+      "source_size": 84,
+      "target_size": 18
+    },
+    {
+      "source": "together.ai",
+      "target": "vercel.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0039,
+      "overlap_coefficient": 0.0119,
+      "source_size": 84,
+      "target_size": 176
+    },
+    {
+      "source": "anyscale.com",
+      "target": "huggingface.co",
+      "shared_commenters": 1,
+      "jaccard": 0.001,
+      "overlap_coefficient": 0.1,
+      "source_size": 10,
+      "target_size": 948
+    },
+    {
+      "source": "anyscale.com",
+      "target": "mistral.ai",
+      "shared_commenters": 1,
+      "jaccard": 0.0007,
+      "overlap_coefficient": 0.1,
+      "source_size": 10,
+      "target_size": 1369
+    },
+    {
+      "source": "anyscale.com",
+      "target": "aws.amazon.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0007,
+      "overlap_coefficient": 0.1,
+      "source_size": 10,
+      "target_size": 1491
+    },
+    {
+      "source": "anyscale.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 1,
+      "jaccard": 0.001,
+      "overlap_coefficient": 0.1,
+      "source_size": 10,
+      "target_size": 985
+    },
+    {
+      "source": "huggingface.co",
+      "target": "bentoml.com",
+      "shared_commenters": 1,
+      "jaccard": 0.001,
+      "overlap_coefficient": 0.0556,
+      "source_size": 948,
+      "target_size": 18
+    },
+    {
+      "source": "langchain.com",
+      "target": "trychroma.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0068,
+      "overlap_coefficient": 0.0152,
+      "source_size": 66,
+      "target_size": 81
+    },
+    {
+      "source": "trychroma.com",
+      "target": "bentoml.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0102,
+      "overlap_coefficient": 0.0556,
+      "source_size": 81,
+      "target_size": 18
+    },
+    {
+      "source": "trychroma.com",
+      "target": "vercel.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0039,
+      "overlap_coefficient": 0.0123,
+      "source_size": 81,
+      "target_size": 176
+    },
+    {
+      "source": "bentoml.com",
+      "target": "meta.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0014,
+      "overlap_coefficient": 0.0556,
+      "source_size": 18,
+      "target_size": 678
+    },
+    {
+      "source": "bentoml.com",
+      "target": "cloud.google.com",
+      "shared_commenters": 1,
+      "jaccard": 0.001,
+      "overlap_coefficient": 0.0556,
+      "source_size": 18,
+      "target_size": 985
+    },
+    {
+      "source": "bentoml.com",
+      "target": "vercel.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0052,
+      "overlap_coefficient": 0.0556,
+      "source_size": 18,
+      "target_size": 176
+    },
+    {
+      "source": "bentoml.com",
+      "target": "nvidia.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0019,
+      "overlap_coefficient": 0.0556,
+      "source_size": 18,
+      "target_size": 499
+    },
+    {
+      "source": "bentoml.com",
+      "target": "microsoft.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0004,
+      "overlap_coefficient": 0.0556,
+      "source_size": 18,
+      "target_size": 2424
+    },
+    {
+      "source": "openai.com",
+      "target": "snowflake.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0001,
+      "overlap_coefficient": 0.125,
+      "source_size": 9482,
+      "target_size": 8
+    },
+    {
+      "source": "anthropic.com",
+      "target": "snowflake.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0001,
+      "overlap_coefficient": 0.125,
+      "source_size": 9151,
+      "target_size": 8
+    },
+    {
+      "source": "cohere.com",
+      "target": "databricks.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0042,
+      "overlap_coefficient": 0.0185,
+      "source_size": 54,
+      "target_size": 184
+    },
+    {
+      "source": "vercel.com",
+      "target": "supabase.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0037,
+      "overlap_coefficient": 0.0109,
+      "source_size": 176,
+      "target_size": 92
+    },
+    {
+      "source": "snowflake.com",
+      "target": "microsoft.com",
+      "shared_commenters": 1,
+      "jaccard": 0.0004,
+      "overlap_coefficient": 0.125,
+      "source_size": 8,
+      "target_size": 2424
+    }
+  ]
+}

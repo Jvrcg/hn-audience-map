@@ -1,5 +1,7 @@
 """
-HN Audience Map - Data Fetcher v3
+HN Audience Map - Data Fetcher v4
+Fix: use restrictSearchableAttributes to search URL field directly,
+avoiding false positives from Algolia's full-text query.
 """
 
 import requests
@@ -9,12 +11,44 @@ from urllib.parse import urlparse
 from pathlib import Path
 
 DOMAINS = [
+  # Ring 1: Direct competitors
     "baseten.com",
     "modal.com",
     "replicate.com",
+    "runpod.io",
+    "together.ai",
+    "anyscale.com",
+    "huggingface.co",
+    "fireworks.ai",
+    # Ring 2: Adjacent tooling
+    "langchain.com",
+    "llamaindex.ai",
+    "wandb.ai",
+    "pinecone.io",
+    "weaviate.io",
+    "trychroma.com",
+    "mlflow.org",
+    "bentoml.com",
+    "ray.io",
+    # Ring 3: Foundation models
+    "openai.com",
+    "anthropic.com",
+    "mistral.ai",
+    "cohere.com",
+    "meta.com",
+    # Ring 4: Broader infra
+    "aws.amazon.com",
+    "cloud.google.com",
+    "vercel.com",
+    "supabase.com",
+    "nvidia.com",
+    "databricks.com",
+    "snowflake.com",
+    "microsoft.com",
+    "cloudflare.com",
 ]
 
-MONTHS_BACK = 6
+MONTHS_BACK = 12
 SECONDS_PER_DAY = 86400
 CUTOFF_TIMESTAMP = int(time.time()) - (MONTHS_BACK * 30 * SECONDS_PER_DAY)
 
@@ -48,6 +82,7 @@ def fetch_stories_for_domain(domain):
             "tags": "story",
             "numericFilters": f"created_at_i>{CUTOFF_TIMESTAMP}",
             "query": domain,
+            "restrictSearchableAttributes": "url",
             "hitsPerPage": hits_per_page,
             "page": page,
         }
