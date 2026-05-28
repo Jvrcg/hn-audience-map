@@ -34,4 +34,4 @@ Shared commenters approximate shared audience, not causal influence (and some of
 
 ---
 
-*Built with Python (HN Algolia API + NetworkX). Code and methodology in this repo — fork it and swap in any company to map a different market.*
+*Built with Python (HN Algolia API + NetworkX).*
