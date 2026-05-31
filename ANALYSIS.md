@@ -2,7 +2,7 @@
 
 ![HN Audience Overlap Map](hn_audience_map.png)
 
-Baseten's job description mentioned Reddit as a channel they're exploring to reach their audience. I wanted to understand that opportunity before discussing it in the interviews, so I wanted to build a Reddit audience overlap analysis. Unfortunately, Reddit has updated its API restrictions, which made it impossible without enterprise access, so I pivoted to the closest high-signal channel for a technical/infra focused audience, which is how I landed at Hacker News.
+Baseten's job description mentioned Reddit as a channel they're exploring to reach their audience. I wanted to understand the channel's audience makeup (traffic between subreddits) before discussing it during the interviews, so I was going to build a Reddit audience overlap analysis. Unfortunately, Reddit's API restrictions made it impossible without enterprise access, which is why I pivoted to the closest high-signal channel for a technical/infra focused audience, Hacker News.
 
 I pulled 12 months (tried 6 months, but it was not enough) of HN stories across 31 companies in the AI/data stack. The group is made up of Baseten, its direct competitors, the foundation-model providers, and the broader infra layer, then mapped which companies share commenters to get as close as possible to the idea of "subreddit traffic flow". If the same people show up discussing two companies, those companies are competing for (or sharing) the same attention, which, depending on the channel, is how I would start building one of the targeting audiences.
 
